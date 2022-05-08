@@ -1,0 +1,17 @@
+footer {
+   margin-top: auto;
+   background: #111;
+   padding: 8px 0;
+   text-align: center;
+}
+
+footer p {
+   font-size: 13px;
+   color: #808080;
+}
+
+footer span {
+   font-size: 11px;
+   color: #525252;
+   margin-top: 10px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.navbar {
+   background-color: #f8f9fa;
+   height: 45px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   border-bottom: 1px solid #eee;
+   margin-bottom: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+ul {
+   list-style: none;
+}
+
+.left h2 {
+   color: #333;
+   font-family: 'Shrikhand', cursive;
+}
+
+.right {
+   display: flex;
+   align-items: center;
+}
+
+.link {
+   margin: 10px;
+   font-size: 13px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #444;
+   font-weight: 500;
+   list-style: none;
+}
+
+p.link {
+   cursor: pointer;
+}
+
+.link:hover {
+   text-decoration: none;
+   color: rgb(51, 67, 212);
+}
+
+.active {
+   color: rgb(51, 67, 212);
+}
+
+.search {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.search input {
+   width: 180px;
+   border: 1px solid #eee;
+   font-size: 14px;
+   color: #777;
+   padding: 4px 7px;
+   margin-right: 3px;
+}
+
+.search input::placeholder {
+   color: #cacaca;
+}
+
+.searchIcon {
+   cursor: pointer;
+}
+
+.person {
+   display: flex;
+   align-items: center;
+   color: #198754;
+   margin-left: 20px;
+}
+
+.person span {
+   margin-left: 5px;
+   font-size: 15px;
+   font-weight: 700;
+}
